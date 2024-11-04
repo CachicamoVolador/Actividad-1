@@ -8,8 +8,7 @@ const eliminarEmpleado = (id) => {
     console.log('Empleado eliminado');
 };
 
-eliminarEmpleado(3);  // Cambia el ID según necesites
-
+eliminarEmpleado(3);  
 
 const eliminarDepartamento = (id) => {
     const stmt = db.prepare('DELETE FROM departamentos WHERE id = ?');
@@ -19,5 +18,5 @@ const eliminarDepartamento = (id) => {
 
 eliminarDepartamento(3); 
 eliminarDepartamento(4); 
- // Cambia el ID según necesites
+
 db.close()
