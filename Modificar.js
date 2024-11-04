@@ -8,8 +8,8 @@ const modificarEmpleado = (id, nombre, correo, departamento) => {
     console.log('Empleado modificado');
 };
 
-modificarEmpleado(1, 'Juan Perez', 'juan.perez@company.com', 2); 
-modificarEmpleado(2, 'jose Pepino', 'jose.pepino@example.com', 1);  // Cambia los datos según necesites
+modificarEmpleado(1, 'Luis Hernandez 'luis.hernandez@example.com', 2); 
+modificarEmpleado(2, 'Maria Lopez', 'maria.lopez@example.com', 1); 
 
 
 const modificarDepartamento = (id, nombre) => {
@@ -19,7 +19,7 @@ const modificarDepartamento = (id, nombre) => {
 };
 
 modificarDepartamento(1, 'RRHH');
-modificarDepartamento(2, 'Clean');
-  // Cambia el ID y el nombre según necesites
+modificarDepartamento(2, 'Finance');
+
 
 db.close();
