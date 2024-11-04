@@ -9,7 +9,7 @@ const insertarDepartamento = (nombre) => {
 };
 
 insertarDepartamento('Recursos Humanos');
-insertarDepartamento( 'Limpieza');  // Cambia el nombre según necesites
+insertarDepartamento( 'Finanzas');  
 
 const insertarEmpleado = (nombre, correo, departamento) => {
     const stmt = db.prepare('INSERT INTO empleados (nombre, correo, departamento) VALUES (?, ?, ?)');
@@ -17,8 +17,8 @@ const insertarEmpleado = (nombre, correo, departamento) => {
     console.log('Empleado insertado');
 };
 
-insertarEmpleado('Juan Perez', 'juan.perez@example.com', 1);
-insertarEmpleado('jose Pepino', 'jose.pepino@example.com', 2);
-  // Cambia los datos según necesites
+insertarEmpleado('Luis Hernandez', 'luis.hernandez@example.com', 1);
+insertarEmpleado('Maria Lopez', 'maria.lopez@example.com', 2);
+
 
 db.close()
