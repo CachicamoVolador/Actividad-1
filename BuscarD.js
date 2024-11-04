@@ -8,7 +8,7 @@ const buscarEmpleado = (id) => {
     console.log(empleado);
 };
 
-buscarEmpleado(1);  // Cambia el ID según necesites
+buscarEmpleado(1);  
 
 
 const buscarDepartamento = (id) => {
@@ -17,5 +17,5 @@ const buscarDepartamento = (id) => {
     console.log(departamento);
 };
 
-buscarDepartamento(1);  // Puedes cambiar el ID según necesites
+buscarDepartamento(1);  
 db.close();
